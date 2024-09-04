@@ -28,7 +28,10 @@ header {
 }
 
 section {
-    
+    padding: 20px;
+    background-image: url(images/images/people.jpg);
+    background-size: cover;
+    overflow: hidden;
 }
 
 .formconteiner {
@@ -52,6 +55,49 @@ input, select {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    border: none;
-
+    border: none;       
+    margin-bottom: 10px;
 }
+
+input[type="submit"] {
+    color: white;
+    background-color: #48c5ce;
+    font-weight: bold;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(images/images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+.picture {
+    width: 160px;
+}
+
+footer {
+    background-color: #202121;
+    padding: 40px;   
+    text-align: center;
+}
+
+.description {
+    text-align: left;
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.description p, .description h3 {
+    margin-bottom: 20px;
+}
+
+.description h3 {
+    font-size: 24px;
+}
+
